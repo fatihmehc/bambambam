@@ -1,0 +1,15 @@
+meme_dict = {
+             "CRINGE":"Garip yada utandırıcı birşey",
+             "LOL":"Komik bir şeye verilern cevap",
+             "ROFL":"Bir şakaya verilen cevap",
+             "SHEESY":"Onaylamamak",
+             "CREEPY":"Koekunç",
+             "AGGRO":"Agresifleşmek"
+             
+             }
+word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
+
+if word in meme_dict.keys():
+    print("HELAL LAN SANA!!?:)")
+else:
+    print("ARADIĞINIZ KİŞİYE ULAŞILAMIYOR LÜTFEN...")
